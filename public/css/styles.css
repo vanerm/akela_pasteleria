@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box!important;
+}
+
+header form.buscar input {
+  float:left;
+  display: block;
+}
+
+header form.buscar {
+  position: relative;
+}
+
+header input.buscar {
+  width: 68%;
+  margin-right: 2%;
+  margin-top: 10px;
+}
+
+header form.buscar {
+  overflow: hidden;
+}
+
+header input.btn{
+  margin-top: 10px;
+
+}
+
+
+body {
+ /* background-image: url("../images/wooden_background-1.jpg");*/
+
+}
+
+
+body{
+  margin-top: 20px;
+}
+
+
+html {
+    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+  }
+
+
+.navbar-nav>li>a{
+  text-align: right;
+}
+
+
+#footer .block_various_links {
+padding: 15px 10px;
+margin-left: 224px;
+}
+
+
+#secciones {
+    margin-top:80px;
+    min-height:100%;
+    /*margin-bottom: -150px;*/
+}
+
+
+*header .navbar{
+  background: rgb(223, 205, 193);
+}
+
+footer{
+  overflow: hidden;
+  position: absolute;
+  clear: both;
+  width: 100%;
+  background: rgb(209, 8, 27);
+  /*border-radius: 20px 20px 0 0;*/
+  /*border: 2px solid black;*/
+  height: 100px;
+  /*display: flex;*/
+  /*height: 100px;*/
+  display: block;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+
+}
+
+
+.container{
+  margin: 0 auto;
+}
+
+
+footer li{
+  color: white;
+  margin-right: 10px;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize; /*convierte a mayuscula la primer letra*/
+
+}
+
+/* Small devices (tablets, 768px and up) */
+/*@media (min-width: @screen-sm-min) {450px}*/
+
+
