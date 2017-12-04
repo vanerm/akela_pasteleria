@@ -42,8 +42,6 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/miPerfil','MiPerfilController@index')->name('miPerfil');
-Route::get('/tortas','TortasController@index')->name('tortas');
-Route::get('/tartas', 'TartasController@index')->name('tartas');
-Route::get('/cositasdulces','CositasDulcesController@index')->name('cositasdulces');
+
 Route::get('/preguntasfrecuentes','PreguntasFrecuentesController@index')->name('preguntasfrecuentes');
 

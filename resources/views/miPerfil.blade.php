@@ -13,17 +13,19 @@
             <div class="jumbotron" >
 
                 <div class="col-md-12">
+                    <br/>
                     <img class="img-responsive"src="images2/marquesina.png" style="width:100%">
                     <div class="caption">
                     </div>
+                    <br/>
                 </div>
 
                 <div class="container">
-                    <h2>Perfil de:  </h2>
+                    <h2><strong>Perfil de:</strong></h2>
 
                     <ul>
-                        <li>Nombre: {{auth()->user()->name}} </li>
-                        <li>Email: {{auth()->user()->email}} </li>
+                        <li><strong>Nombre:</strong> {{auth()->user()->name}} </li>
+                        <li><strong>Email: </strong>{{auth()->user()->email}} </li>
                     </ul>
 
                     @if (session('status'))

@@ -15,9 +15,8 @@
 
 @section("content")
 
-    <div class="container">
-        <div id="secciones" class="interna">
-
+    <div class="container alto-minimo">
+        <div id="secciones" >
             <div class="jumbotron" >
 
                 <div class="col-md-12">
@@ -32,11 +31,11 @@
                     </h2>
                     <ul>
                         @foreach($categories as $category)
-                            <li>
-                                <a href="/categorias/{{$category->id}}">
+                            <div class="list-group">
+                                <a href="/categorias/{{$category->id}}" class="list-group-item">
                                     {{$category->name}}
                                 </a>
-                            </li>
+                            </div>
                         @endforeach
                     </ul>
                 </div>

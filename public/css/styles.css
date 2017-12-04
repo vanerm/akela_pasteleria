@@ -4,6 +4,38 @@
   box-sizing: border-box!important;
 }
 
+html {
+  font-family: GillSans, Calibri, Trebuchet, sans-serif;
+}
+
+ul.pagination {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+div.jumbotron{
+  padding: 1% 15% 15% 0%;
+}
+
+.jumbotron{
+  margin-top: 120px ;
+}
+
+
+.img-circle{
+  margin-left: 10px;
+}
+
+div.thumbnail {
+  height: 350px;
+}
+
+.alto-minimo{
+  min-height: 633px;
+}
+
+
 header form.buscar input {
   float:left;
   display: block;
@@ -25,28 +57,34 @@ header form.buscar {
 
 header input.btn{
   margin-top: 10px;
-
-}
-
-
-body {
- /* background-image: url("../images/wooden_background-1.jpg");*/
-
 }
 
 
 body{
   margin-top: 20px;
+  display: block;
+  /* background-image: url("../images/wooden_background-1.jpg");*/
+}
+
+section#home.scroll-section{
+  display: block;
+}
+
+.div {
+  display: block;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
 }
 
 
-html {
-    font-family: GillSans, Calibri, Trebuchet, sans-serif;
-  }
-
-
-.navbar-nav>li>a{
-  text-align: right;
+.home-inner {
+  display: table;
+  height: calc(100vh - 50px);
+  padding-top: 80px;
+  width: 100%;
 }
 
 
@@ -55,13 +93,11 @@ padding: 15px 10px;
 margin-left: 224px;
 }
 
-
 #secciones {
-    margin-top:80px;
+    margin-top:100px;
     min-height:100%;
     /*margin-bottom: -150px;*/
 }
-
 
 *header .navbar{
   background: rgb(223, 205, 193);
@@ -72,6 +108,7 @@ footer{
   position: absolute;
   clear: both;
   width: 100%;
+/*  background: rgb(230,0, 0);*/
   background: rgb(209, 8, 27);
   /*border-radius: 20px 20px 0 0;*/
   /*border: 2px solid black;*/
@@ -84,14 +121,28 @@ footer{
   justify-content: center;
   align-items: center;
   padding-top: 20px;
-
 }
-
 
 .container{
   margin: 0 auto;
+  margin-top: 15px;
 }
 
+div.container-fluid{
+  padding-left: 0%;
+  padding-right: 0%;
+
+}
+
+.container>.navbar-header{
+  margin-bottom: 12px;
+  vertical-align: middle;
+}
+
+ul#navbarItems.nav.navbar-nav.navbar-right{
+  margin-top: 12px;
+  vertical-align: middle;
+}
 
 footer li{
   color: white;
@@ -104,7 +155,6 @@ footer a {
   color: white;
   text-decoration: none;
   text-transform: capitalize; /*convierte a mayuscula la primer letra*/
-
 }
 
 /* Small devices (tablets, 768px and up) */

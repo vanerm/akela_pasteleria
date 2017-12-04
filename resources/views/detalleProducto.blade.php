@@ -29,7 +29,7 @@
                     <li>
                         Precio: $ {{$product-> price}}
                     </li>
-                    <li>
+                    <li class="text-justify">
                         Descripcion: {{$product->description}}
                     </li>
                     <li>
@@ -37,10 +37,14 @@
                             Categoria: {{$product->category->name}}
                         </a>
                     </li>
+                    <br/>
 
-                    <div class="col-md-8">
+                    <div class="col-md-4">
                         <div class="thumbnail">
                             <img class="img-responsive" src="/{{$product->image}}" style="width:100%">
+                            <div class="caption">
+                                <p>{{$product->name}}</p>
+                            </div>
                         </div>
 
                         @if (auth()->check() && auth()->user()->type == 1)

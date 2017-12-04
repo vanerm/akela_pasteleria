@@ -19,23 +19,26 @@
         <div id="secciones" class="interna">
             <div class="jumbotron" >
                     <div class="col-md-12">
+                        <br/>
                         <img class="img-responsive"src="images2/marquesina.png" style="width:100%">
                         <div class="caption">
                         </div>
+                        <br/>
                     </div>
 
-                <div class="container">
 
+                <div class="container">
                 <h2>
-                    Mi Carrito
+                   <strong>Mi Carrito</strong>
                 </h2>
+                    <br/>
                 <ul>
                     @forelse($products as $product)
-                        <li>
+                        <ul class="list-group-item">
                             <a href="/productos/{{$product->id}}">
                                 {{$product->name}}
                             </a>
-                        </li>
+                        </ul>
                     @empty
                         <p>
                             No hay nada en tu carrito

@@ -10,7 +10,7 @@
 
 <!DOCTYPE html>
 
-<html lang="en">
+
 <html lang="{{ app()->getLocale() }}">
 <head>
     <meta charset="utf-8">
@@ -46,6 +46,7 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
+
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- <script type="text/javascript">
@@ -53,6 +54,7 @@
       $(".button-collapse").sideNav();
     }
     </script> -->
+
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" cz-shortcut-listen="true">
 
@@ -70,22 +72,35 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+                <a class="left" href="/home">
+                    <img class= "img-circle" alt="Akela" src="https://scontent-eze1-1.cdninstagram.com/t51.2885-19/s320x320/19379845_162930180915505_968021204008960000_a.jpg" width="80" height="80" alt="">
+                </a>
 
                 <!-- logo -->
-                <a class="navbar-brand" href="/home">
+                <!-- <a class="navbar-brand" href="/home">
                     <img class= "img-circle" alt="Brand" src="https://scontent-eze1-1.cdninstagram.com/t51.2885-19/s320x320/19379845_162930180915505_968021204008960000_a.jpg" width="130" height="130" alt="">
-                </a>
+                </a> -->
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="navbar-links">
+
                 <ul id= "navbarItems" class="nav navbar-nav navbar-right">
-                    <li><a class="page-scroll" href="/home">AKELA</a></li>
-                    <li><a class="page-scroll" href="/productos">Productos</a></li>
-                    <li><a class="page-scroll" href="/categorias">Categorias</a></li>
-                <!-- <li><a class="page-scroll" href="/tortas">Tortas</a></li>
-                    <li><a class="page-scroll" href="/tartas">Tartas</a></li>
-                    <li><a class="page-scroll" href="/cositasdulces">Cositas Dulces</a></li>-->
+                    <li>
+                        <a class="page-scroll" href="/productos">Productos</a>
+                    </li>
+                   <!-- <li><a class="page-scroll" href="/categorias">Categorias</a></li> -->
+
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Categorias
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/categorias/52">Tortas</a></li>
+                            <li><a href="/categorias/53">Tartas</a></li>
+                            <li><a href="/categorias/54">Cositas Dulces</a></li>
+                        </ul>
+                    </li>
+
                     <li>
                         <form class="buscar" method="GET" action="/buscarProductos">
                             <input class="form-control buscar" type="text" name="buscar">
@@ -112,11 +127,9 @@
                                 <span class="glyphicon glyphicon-log-in"></span>
                                 Logout
                             </a>
-
                             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                 {{ csrf_field() }}
                             </form>
-
                         </li>
                     <li>
                         <a class="page-scroll" href="/miPerfil"><span class="glyphicon glyphicon-log-in"></span> Mi Perfil</a>
@@ -132,20 +145,20 @@
                             <a class="page-scroll" href="{{ route('register') }}"><span class="glyphicon glyphicon-user"></span> Registración</a>
                         </li>
                     @endif
-
-
-
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
 </header>
 
+
+
 @if (session('status'))
     <div class="alert alert-success">
         {{ session('status') }}
     </div>
 @endif
+
 
 @yield('content')
 
@@ -156,9 +169,9 @@
     <div class="container">
         <ul class="nav navbar-nav">
             <section id="social-2">
-                <li><a href="https://www.instagram.com/akelapasteleria/"><img src="./images/insta_icon.png" alt="icon" style="float:right"></a></li>
-                <li><a href="https://www.facebook.com/akelapasteleria"><img src="./images/face_icon.png" alt="icon" style="float:right"></a></li>
-                <li><a class="page-scroll" href="/preguntasfrecuentes"> <img src="./images/preg_icon.png" alt="icon" style="float:right"></a></li>
+                <li><a href="https://www.instagram.com/akelapasteleria/"><img src="../../../images/insta_icon.png" alt="icon" style="float:right"></a></li>
+                <li><a href="https://www.facebook.com/akelapasteleria"><img src="../../../images/face_icon.png" alt="icon" style="float:right"></a></li>
+                <li><a class="page-scroll" href="/preguntasfrecuentes"> <img src="../../../images/preg_icon.png" alt="icon" style="float:right"></a></li>
 
             </section>
         </ul>
@@ -172,9 +185,10 @@
 <!--Close -->
 
 <!-- JS Body -->
+<!--
 <script src="assets/libs/jquery/jquery-3.2.1.min.js"></script>
 <script src="assets/libs/bootstrap-3/js/bootstrap.min.js"></script>
-
+-->
 
 
 </body>

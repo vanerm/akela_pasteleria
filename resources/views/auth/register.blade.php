@@ -6,7 +6,7 @@
 
 @section('content')
 
-    <div class="container">
+    <div class="container alto-minimo">
         <div id="secciones" class="interna">
             <div class="jumbotron" >
                 <div class="container">

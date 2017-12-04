@@ -19,20 +19,27 @@
             <div class="jumbotron" >
                 <div class="container">
                     <h2>
-                        Productos
+                        Resultado de su Búsqueda
                     </h2>
-                    {{$products->appends(["buscar"=>$buscar])->links()}}
+                    <!---{{$products->appends(["buscar"=>$buscar])->links()}} -->
                     <ul>
                         @foreach($products as $product)
-                            <li>
-                                <a href="/productos/{{$product->id}}">
-                                    {{$product->name}}
-                                </a>
-                            </li>
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <a href="/productos/{{$product->id}}">
+                                        <img class="img-responsive" src="/{{$product->image}}" style="width:100%">
+                                        <div class="caption">
+                                            <p>{{$product->name}}</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
                         @endforeach
                     </ul>
-                    {{$products->appends(["buscar"=>$buscar])->links()}}
                 </div>
+                    {{$products->appends(["buscar"=>$buscar])->links()}}
+
             </div>
         </div>
     </div>

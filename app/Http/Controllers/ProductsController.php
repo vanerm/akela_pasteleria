@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Product;
 use App\Category;
 
+
 class ProductsController extends Controller
 {
     /**
@@ -144,7 +145,7 @@ class ProductsController extends Controller
 
     public function search(Request $request){
         $buscar = $request["buscar"];
-        $products = Product::where("name", "LIKE", "%$buscar%")->paginate(5);
+        $products = Product::where("name", "LIKE", "%$buscar%")->paginate(3);
 
         return view("resultadoBusqueda", compact("products","buscar"));
     }
