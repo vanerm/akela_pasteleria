@@ -14,14 +14,14 @@
 
                 <div class="col-md-12">
                     <br/>
-                    <img class="img-responsive"src="images2/marquesina.png" style="width:100%">
+                    <img class="img-responsive"src="images2/loginfoto.jpg" style="width:100%">
                     <div class="caption">
                     </div>
                     <br/>
                 </div>
 
                 <div class="container">
-                    <h2><strong>Perfil de:</strong></h2>
+                    <h2 id="productos"><strong>Perfil de:</strong></h2>
 
                     <ul>
                         <li><strong>Nombre:</strong> {{auth()->user()->name}} </li>

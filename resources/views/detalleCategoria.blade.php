@@ -18,18 +18,18 @@
         <div id="secciones" class="interna">
             <div class="jumbotron" >
                 <div class="container">
-                    <h2 class="text-center" >
+                    <h2  id="listadoProductos" class="text-center" >
                         {{$category->name}}
                     </h2>
                 <br/>
 
                     <ul>
                         @foreach($category->products as $product)
-                            <div class="col-md-4">
+                            <div class="col-xs-12 col-sm-6 col-md-4">
                                 <a href="/productos/{{$product->id}}">
                                 <div class="thumbnail">
                                     <img class="img-responsive" src="/{{$product->image}}" style="width:100%">
-                                    <div class="caption">
+                                    <div id="productos" class="caption">
                                         <p>{{$product->name}}</p>
                                     </div>
                                 </div>

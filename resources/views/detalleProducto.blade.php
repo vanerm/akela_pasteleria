@@ -20,9 +20,10 @@
             <div class="jumbotron" >
 
                 <div class="container">
-                    <h2>
-                        Detalle de Producto: {{$product->name}}
+                    <h2 id="listadoProductos" class="tituloproducto"><strong>
+                        Detalle de Producto: </strong>
                     </h2>
+                    <h3 id="nombreEnDetalle"style="color: #5e5d5d"><b>{{$product->name}}</b></h3>
                     <li>
                         Stock: {{$product->stock}}
                     </li>
@@ -39,10 +40,10 @@
                     </li>
                     <br/>
 
-                    <div class="col-md-4">
+                    <div class="col-xs-10col-sm-9 col-md-9">
                         <div class="thumbnail">
                             <img class="img-responsive" src="/{{$product->image}}" style="width:100%">
-                            <div class="caption">
+                            <div id="productos" class="caption">
                                 <p>{{$product->name}}</p>
                             </div>
                         </div>

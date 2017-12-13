@@ -19,7 +19,7 @@
         <div id="secciones" >
             <div class="jumbotron" >
 
-                <div class="col-md-12">
+                <div class="col-xs-12 col-sm-6 col-md-4">
                     <img class="img-responsive"src="images2/marquesina.png" style="width:100%">
                     <div class="caption">
                     </div>

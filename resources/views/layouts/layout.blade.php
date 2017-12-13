@@ -35,7 +35,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/styles.css') }}" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed|Oleo+Script|Ubuntu" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!-- para bootstrap -->
@@ -62,7 +62,7 @@
 <!--Header -->
 
 <header class="header">
-    <nav class="navbar navbar-default navbar-fixed-top top-nav-collapse" role="navigation">
+    <nav  id="headerNavbar" class="navbar navbar-default navbar-fixed-top top-nav-collapse" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -175,7 +175,7 @@
 
             </section>
         </ul>
-        <ul class="nav navbar-nav navbar-right">
+        <ul id="footer" class="nav navbar-nav navbar-right">
             <li><a href="#">Akela Pasteleria © All Rights Reserved</a></li>
 
         </ul>

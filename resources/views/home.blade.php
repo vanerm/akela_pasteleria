@@ -16,7 +16,7 @@
             <div class="row">
                 <div class="col-sm-12">
                 <div id="secciones" class="interna">
-                    <img src="images2/akela_markesina.png" class="img-responsive" alt="AKELA" style="width: 100%">
+                    <img src="images2/markesina3.jpg" class="img-responsive" alt="AKELA" style="width: 100%">
                 </div>
                 </div>
             </div>
@@ -24,36 +24,50 @@
     </section>
         <!-- Second Container -->
      <section id="InfoAkela" class="small">
-        <div class="container">
-            <h2>Akela Pastelería</h2>
+        <div class="container" id="infocontent">
+            <h2 id="tituloakela"><strong>  Akela Pastelería </strong></h2>
             <div class="row">
-                <div class="col-md-4">
-                    <p>
-                        <strong>Quiénes somos?</strong>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                <div class="col-sx-12 col-sm-6 col-md-4">
+                    <p style="text-align: justify">
+                        <strong>Quiénes somos?</strong><br/>
+                        Nuestra pastelería es una empresa de propiedad y gestión familiar que lleva varias generaciones,
+                        antiguamente de panaderos y cocineros. En AKELA PASTELERÍA nos comprometemos a utilizar siempre,
+                        en todos los productos que elaboramos, ingredientes frescos y de primera calidad. Le garantizamos
+                        que en nuestro establecimiento encontrará lo más selecto en productos horneados.
+
+                        Siempre el local repleto de pasteles, tartas, galletas, delicias de chocolate y otras exquisiteces
+                        muy tentadoras. Si lo que busca es una creación personalizada, trabajaremos codo a codo con usted
+                        para lograr un diseño que combine cualidad y creatividad.
+
                     </p>
-                    <p>
-                        <strong>Nuestro Servicio</strong>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    <p style="text-align: justify">
+                        <strong>Nuestro Servicio</strong><br/>
+                            Brindamos un exclusivo servicio de catering, que le permite al agasajado del evento seleccionar
+                            cada uno de los productos que se van a servir, pudiendo asi personalizarlos a su gusto con distintos
+                            elementos que tenemos preparados para la circunstancia. Desde aplicar nombres, fotos, caras,
+                            pisos, mezclar los ingredientes que se antojen siempre que no pierda la filosofia de Akela.
                     </p>
                 </div>
 
-                <div class="col-md-4">
-                    <p>
-                        <strong>Nuestras Materias Primas</strong>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                <div class="col-sx-12 col-sm-6 col-md-4">
+                    <p style="text-align: justify">
+                        <strong>Nuestras Materias Primas</strong><br/>
+                        En AKELA elaboramos todos nuestros productos con ingredientes de primerísima calidad y 100% naturales.
+                        Aquí no hay aditivos químicos que valgan. Al primer mordisco, se dará cuenta de por qué nuestros
+                        clientes no se cansan de venir por nuestros productos, todos frescos del día. Tenemos un convenio
+                        unico con una reconocida empresa de la Patagonia que nos provee del mas exelentisimo chocolate y frutos
+                        rojos que nos brindan un sabor unico e irrepetible, no lo vas a poder encontrar en otro lado, lorem
+                        isptum torta nos comemos toda la torta que traen de esta pasteleria que es buenisima te lo aseguramos.
                     </p>
-                    <p>
-                        <strong>Nuestras Categorias</strong>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    <p style="text-align: justify">
+                        <strong>Nuestras Categorias</strong><br/>
+                        Realizamos tartas, tortas, alfajores, macarrones, bocaditos dulces, postres de te,  personalizadas para celebraciones y cumpleaños, o simplemente para darse un capricho,
+                        que van desde las eleboraciones más tradicionales hasta las últimas tendencias en pastelería.
+                        Siempre con nuestra innovando, vanguardiando, producción artesana y materias primas de primera calidad.
                     </p>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-sx-12  col-md-4">
                     <img src="images2/macarrons.png" class="img-responsive" alt="AKELA">
                 </div>
 
@@ -77,7 +91,7 @@
                     <div class="carousel-inner">
 
                         <div class="item active">
-                            <img class="responsive" src="images2/carrousel/tartafrutillas2.png" alt="Tartas" style="width:100%;">
+                            <img class="responsive" src="images2/carrousel/tartadefrutillas.jpg" alt="Tartas" style="width:100%;">
                             <div class="carousel-caption">
                                 <h3>Tartas</h3>
                                 <!-- <p>Las tartas mas ricas!</p> -->
@@ -116,37 +130,37 @@
 
         <!-- Fourth Container(Grid) -->
         <!-- Categorias -->
-    <section class="small" id="Productos">
-            <div class="container">
-                <h2>Categorías de Nuestros Productos</h2>
+    <section class="small" >
+            <div  class="container">
+                <h2 id="tituloakela"><strong>Nuestros Productos </strong> </h2>
 
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-sx-12 col-sm-6 col-md-4">
                         <div class="thumbnail">
                             <a href="/categorias/52">
                                 <img class="img-responsive" src="images/chocotorta.jpg" alt="Tortas" style="width:100%">
-                                <div class="caption">
-                                    <p>Tortas</p>
+                                <div id="productos" class="caption">
+                                    <p style="font-size: medium">Tortas</p>
                                 </div>
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-sx-12 col-sm-6 col-md-4">
                         <div class="thumbnail">
                             <a href="/categorias/53">
                                 <img class="img-responsive" src="images/lemonpie.jpg" alt="Tartas" style="width:100%">
-                                <div class="caption">
-                                    <p>Tartas</p>
+                                <div id="productos" class="caption">
+                                    <p style="font-size: medium">Tartas</p>
                                 </div>
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-sx-12 col-sm-6 col-md-4">
                         <div class="thumbnail">
                             <a href="/categorias/54">
                                 <img class="img-responsive"src="images/cositasdulces.jpg" alt="Dulces" style="width:100%">
-                                <div class="caption">
-                                    <p>Cositas Dulces</p>
+                                <div id="productos" class="caption">
+                                    <p style="font-size: medium">Cositas Dulces</p>
                                 </div>
                             </a>
                         </div>
@@ -155,12 +169,21 @@
             </div>
     </section>
 
-        <!-- Fourth Container(Formulario y GoogleMaps) -->
-    <section class="small" id="FormularioMaps">
+           <!-- Fourth Container(Formulario y GoogleMaps) -->
+    {{--<section class="small" id="FormularioMaps">
         <div class="container">
-            <h3>Contactenos</h3>
-            <div class="row">
+            <h3 id="tituloakela" >Probá nuestra chocotorta en casa!</h3>
+
                 <div class="col-md-6">
+                    <div class=class="screen-reader-response">
+                        <div id="map">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/HH0wgkMo3GA" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>--}}
+            {{--
+            <div class="row">
+                <div class="col-sx-12 col-sm-6 col-md-6">
                     <div class="well">
                         <div role="form" class="wpcf7" id="wpcf7-f26-o1" lang="es-ES" dir="ltr">
                             <div class="screen-reader-response"></div>
@@ -206,12 +229,12 @@
                         </div>
                     </div>
                     <p class="regular-text">Buenos Aires, Argentina</p>
-                    <p>+54911 1234-56789</p>
-                    <p><a href="mailto:info@openhex.com.ar">akelapasteleria@gmail.com</a></p>
+                    <p>+54911 2634-8891</p>
+                    <p><a href="mailto:akelapasteleria@gmail.com">akelapasteleria@gmail.com</a></p>
                 </div>
-            </div>
-        </div>
-    </section>
+            </div>--}}
+        {{--</div>
+    </section>--}}
 </div>
 
 @endsection

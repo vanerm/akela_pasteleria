@@ -20,7 +20,7 @@
             <div class="jumbotron" >
                     <div class="col-md-12">
                         <br/>
-                        <img class="img-responsive"src="images2/marquesina.png" style="width:100%">
+                        <img class="img-responsive"src="images2/carrito.jpg" style="width:100%">
                         <div class="caption">
                         </div>
                         <br/>
@@ -28,7 +28,7 @@
 
 
                 <div class="container">
-                <h2>
+                <h2 id="productos">
                    <strong>Mi Carrito</strong>
                 </h2>
                     <br/>

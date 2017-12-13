@@ -4,8 +4,31 @@
   box-sizing: border-box!important;
 }
 
+#productos {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+#listadoProductos{
+  font-family: 'Oleo Script', cursive;
+  font-size: 45px;
+}
+
+#listadoProductos.tituloproducto{
+  font-size: 35px;
+}
+
+#tituloakela{
+  font-family: 'Oleo Script', cursive;
+  font-size: 45px;
+}
+
+
 html {
   font-family: GillSans, Calibri, Trebuchet, sans-serif;
+
+}
+h2{
+  font-family: 'Ubuntu' , sans-serif;;
 }
 
 ul.pagination {
@@ -22,14 +45,18 @@ div.jumbotron{
   margin-top: 120px ;
 }
 
-
 .img-circle{
   margin-left: 10px;
 }
 
 div.thumbnail {
-  height: 350px;
+  min-height: 310px;
 }
+
+div.small {
+  background-color: #4bb1b1;
+}
+
 
 .alto-minimo{
   min-height: 633px;
@@ -88,15 +115,19 @@ section#home.scroll-section{
 }
 
 
-#footer .block_various_links {
+/*#footer .block_various_links {
 padding: 15px 10px;
 margin-left: 224px;
-}
+}*/
+
 
 #secciones {
     margin-top:100px;
     min-height:100%;
     /*margin-bottom: -150px;*/
+}
+con{
+  background: grey;
 }
 
 *header .navbar{
@@ -157,7 +188,86 @@ footer a {
   text-transform: capitalize; /*convierte a mayuscula la primer letra*/
 }
 
-/* Small devices (tablets, 768px and up) */
-/*@media (min-width: @screen-sm-min) {450px}*/
+@media (max-width: 1024px) {
+
+  ul#navbarItems.nav.navbar-nav.navbar-right {
+    margin-top: 2px;
+    float: none !important;
+  }
+}
+
+@media (max-width: 780px) {
+
+
+  #tituloakela{
+    font-size: 35px;
+  }
+
+  #listadoProductos{
+    font-size: 35px;
+  }
+
+/*  ul#navbarItems.nav.navbar-nav.navbar-right{
+    margin-top: 2px;
+    float: none!important;
+  }*/
+
+  #listadoProductos.tituloproducto{
+    font-size: 29px;
+  }
+
+
+  footer li {
+    color: white;
+    margin-right: -6px;
+    margin-left: 14px;
+    display: inline-block;
+  }
+
+
+}
+
+@media (max-width: 430px) {
+
+  #tituloakela{
+   font-size: 25px;
+  }
+
+  #listadoProductos{
+    font-size: 23px;
+  }
+
+  #listadoProductos.tituloproducto{
+    font-size: 24px;
+  }
+
+  #nombreEnDetalle{
+    font-size: 18px;
+  }
+
+  footer li {
+    color: white;
+    margin-right: -6px;
+    margin-left: 14px;
+    display: inline-block;
+  }
+
+
+  footer a {
+
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize; /*convierte a mayuscula la primer letra*/
+  }
+
+  div.thumbnail {
+    min-height: 200px;
+  }
+
+
+}
+
+
+
 
 

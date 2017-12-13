@@ -11,6 +11,15 @@
         <section id="preguntasfrecuentes">
             <div class="jumbotron" >
                 <div class="container">
+                    <div class="col-md-12">
+                        <br/>
+                        <img class="img-responsive"src="images2/loginfoto.jpg" style="width:100%">
+                        <div class="caption">
+                        </div>
+                        <br/>
+                    </div>
+
+                    <div class="container">
                     <h2> Preguntas Frecuentes</h2>
                 </div>
             </div>

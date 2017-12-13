@@ -16,6 +16,7 @@
     <link rel="stylesheet" type="text/css" href="/css/app.css">
     <link rel="stylesheet" type="text/css" href="/css/micss.css">
     @yield("css")
+
 </head>
 <body>
 <div class="container">

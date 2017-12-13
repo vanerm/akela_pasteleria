@@ -25,20 +25,19 @@
                     </div>
                 </div>
                 -->
-                <div class="container">
-                    <h2 class="text-center">
-                        Nuestros Productos
+                <div  class="container">
+                    <h2 id="listadoProductos" class="text-center">
+                        <strong> Nuestros Productos</strong>
                     </h2>
                     <br/>
                     <ul>
                         @foreach($products as $product)
-                                <div class="col-md-4">
+                                <div class="col-xs-12 col-sm-6 col-md-4" >
                                     <div class="thumbnail">
                                         <a href="/productos/{{$product->id}}">
                                             <img class="img-responsive" src="/{{$product->image}}" style="width:100%">
-                                            <div class="caption">
+                                            <div id="productos" class="caption">
                                                 <p>{{$product->name}}</p>
-
                                             </div>
                                         </a>
                                     </div>
