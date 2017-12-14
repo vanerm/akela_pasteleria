@@ -27,9 +27,9 @@
         <div class="container" id="infocontent">
             <h2 id="tituloakela"><strong>  Akela Pastelería </strong></h2>
             <div class="row">
-                <div class="col-sx-12 col-sm-6 col-md-4">
+                <div  class="col-sx-12 col-sm-6 col-md-4">
                     <p style="text-align: justify">
-                        <strong>Quiénes somos?</strong><br/>
+                        <strong >Quiénes somos?</strong><br/>
                         Nuestra pastelería es una empresa de propiedad y gestión familiar que lleva varias generaciones,
                         antiguamente de panaderos y cocineros. En AKELA PASTELERÍA nos comprometemos a utilizar siempre,
                         en todos los productos que elaboramos, ingredientes frescos y de primera calidad. Le garantizamos
