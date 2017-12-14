@@ -176,7 +176,7 @@
             </section>
         </ul>
         <ul id="footer" class="nav navbar-nav navbar-right">
-            <li><a href="#">Akela Pasteleria © All Rights Reserved</a></li>
+            <li><a id="productos" style="font-size: 15px" href="#">Akela Pasteleria © All Rights Reserved</a></li>
 
         </ul>
     </div>

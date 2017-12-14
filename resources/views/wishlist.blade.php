@@ -40,7 +40,7 @@
                             </a>
                         </ul>
                     @empty
-                        <p>
+                        <p id="productos">
                             No hay nada en tu carrito
                         </p>
                     @endforelse
