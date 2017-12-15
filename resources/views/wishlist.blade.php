@@ -9,7 +9,7 @@
 @extends("layouts.layout")
 
 @section("titulo")
-    Mi Carrito
+    WishList
 @endsection
 
 @section("content")
@@ -29,7 +29,7 @@
 
                 <div class="container">
                 <h2 id="productos">
-                   <strong>Mi Carrito</strong>
+                   <strong>WishList</strong>
                 </h2>
                     <br/>
                 <ul>
@@ -41,7 +41,7 @@
                         </ul>
                     @empty
                         <p id="productos">
-                            No hay nada en tu carrito
+                            No hay nada en tu lista de favoritos!
                         </p>
                     @endforelse
                 </ul>

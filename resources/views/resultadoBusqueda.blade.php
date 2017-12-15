@@ -18,7 +18,7 @@
 
             <div class="jumbotron" >
                 <div class="container">
-                    <h2>
+                    <h2 id="listadoProductos">
                         Resultado de su Búsqueda
                     </h2>
                     <!---{{$products->appends(["buscar"=>$buscar])->links()}} -->
@@ -28,7 +28,7 @@
                                 <div class="thumbnail">
                                     <a href="/productos/{{$product->id}}">
                                         <img class="img-responsive" src="/{{$product->image}}" style="width:100%">
-                                        <div class="caption">
+                                        <div id="productos" class="caption">
                                             <p>{{$product->name}}</p>
                                         </div>
                                     </a>

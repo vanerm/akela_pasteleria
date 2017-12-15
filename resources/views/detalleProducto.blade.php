@@ -23,7 +23,7 @@
                     <h2 id="listadoProductos" class="tituloproducto"><strong>
                         Detalle de Producto: </strong>
                     </h2>
-                    <h3 id="nombreEnDetalle"style="color: #5e5d5d"><b>{{$product->name}}</b></h3>
+                    <h3 id="productos" style="color: #5e5d5d"><b>{{$product->name}}</b></h3>
                     <li>
                         Stock: {{$product->stock}}
                     </li>

@@ -135,7 +135,7 @@
                         <a class="page-scroll" href="/miPerfil"><span class="glyphicon glyphicon-log-in"></span> Mi Perfil</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="/wishlist"><span class="glyphicon glyphicon-shopping-cart"></span>Mi Carrito</a>
+                        <a class="page-scroll" href="/wishlist"><span class="glyphicon glyphicon-star"></span>WishList</a>
                     </li>
                    @else
                         <li>
